@@ -1,0 +1,12 @@
+name: Deployment Workflow
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  job_one:
+    name: Deploy
+    runs-on: ubuntu-latest
+      - name: ssh deploy
+        uses: easingthemes/ssh-deploy@v2.1.4
+
