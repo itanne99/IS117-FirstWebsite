@@ -1,0 +1,11 @@
+{
+    "sshfs.configs": [
+        {
+            "name": "NJIT_AFS",
+            "host": "afs1.njit.edu",
+            "username": "it49",
+            "root": "/afs/cad.njit.edu/u/i/t/it49/public_html",
+            "password": "###Tomguy24"
+        }
+    ]
+}
